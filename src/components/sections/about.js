@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'PyTorch and Hugging Face',
+    'AWS (SageMaker, Lambda, S3)',
+    'YOLO, DETR, and Vision Language Models',
+    'RAG and LLMs (Gemini, LLaMA, Mistral)',
+    'SQL and Power BI',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,34 +141,26 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
+            <p>Hello, I am Likitha. I build machine learning systems that ship.</p>
+
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I recently finished my MS in Computer Science with an AI focus at the University of
+              Toledo and work as a Data Scientist at Actual Reality Technologies. My day to day is
+              training computer vision models, wiring up vision language model pipelines, and
+              turning messy real world data into production grade inference systems. The work I am
+              proudest of: a YOLO and Gemini VLM pipeline running on 700 plus engineering drawings
+              that cut manual processing time by 70 percent, and a pattern based data cleaner that
+              benchmarks 63x faster than FLAN T5.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I also co authored a paper on decision intelligence dashboards on arXiv in 2025 and
+              have an IEEE publication on assistive computer vision for the visually impaired.
+              Outside of work I organize the AI Collective Toledo chapter, where I run events that
+              bring AI conversations to communities beyond pure tech.
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I work with day to day:</p>
           </div>
 
           <ul className="skills-list">

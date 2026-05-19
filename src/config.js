@@ -1,26 +1,14 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'likithatadakala@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://github.com/likithatadakala',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/tadakala-likitha/',
     },
   ],
 
@@ -38,15 +26,19 @@ module.exports = {
       url: '/#projects',
     },
     {
+      name: 'Publications',
+      url: '/#publications',
+    },
+    {
       name: 'Contact',
       url: '/#contact',
     },
   ],
 
   colors: {
-    green: '#64ffda',
+    green: '#cadbd7',
     navy: '#0a192f',
-    darkNavy: '#020c1b',
+    darkNavy: '#366dc0',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

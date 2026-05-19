@@ -56,6 +56,28 @@ const StyledProject = styled.li`
         padding: 25px 25px 20px;
       }
     }
+    .project-title {
+      text-align: right;
+
+      @media (max-width: 768px) {
+        text-align: left;
+      }
+    }
+    .project-description {
+      text-align: right;
+
+      p {
+        text-align: right;
+      }
+
+      @media (max-width: 768px) {
+        text-align: left;
+
+        p {
+          text-align: left;
+        }
+      }
+    }
     .project-tech-list {
       justify-content: flex-end;
 
