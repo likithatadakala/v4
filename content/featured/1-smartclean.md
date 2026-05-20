@@ -2,7 +2,7 @@
 date: '1'
 title: 'SmartClean AI'
 cover: './smartclean/smartclean.png'
-github: ''
+github: 'https://github.com/likithatadakala/SmartCleanAI'
 external: ''
 cta: ''
 tech:
