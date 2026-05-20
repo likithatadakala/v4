@@ -41,7 +41,7 @@ const StyledContactSection = styled.section`
   }
 
   .email-inline {
-    display: inline-block;
+    display: block;
     margin-top: 20px;
     color: var(--green);
     font-family: var(--font-mono);
