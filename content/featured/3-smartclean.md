@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'SmartClean AI'
 cover: './smartclean/smartclean.png'
 github: 'https://github.com/likithatadakala/SmartCleanAI'

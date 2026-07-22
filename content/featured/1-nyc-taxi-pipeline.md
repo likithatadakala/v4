@@ -1,5 +1,5 @@
 ---
-date: '5'
+date: '1'
 title: 'NYC Taxi Data Pipeline and Tip Prediction'
 cover: './nyc-taxi-pipeline/nyc-taxi-pipeline.png'
 github: 'https://github.com/likithatadakala/nyc_taxi_data_pipeline'

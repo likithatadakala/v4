@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '2'
 title: 'YOLO Inference Docker'
 cover: './yolo-inference-docker/yolo-inference-docker.png'
 github: 'https://github.com/likithatadakala/yolo-inference-docker'
