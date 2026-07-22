@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gatsby-develop",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-lc",
+        "source ~/.nvm/nvm.sh && nvm use 14.16.0 && ./node_modules/.bin/gatsby develop"
+      ],
+      "port": 8000
+    }
+  ]
+}
